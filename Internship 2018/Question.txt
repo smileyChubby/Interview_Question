@@ -1,1 +1,13 @@
+Problem: Tensile strength test
+-------------------------------------------------------------------------------------------------------------------------------------
+The rubber company wants to minimize the cost of testing produces. Such that they provide only 3 samples
+for the test for each production model. All samples are identical. The test is straightforward, one sample is put
+to the force testing machine which yields the result as either torn or nothing. The sample which has been torn apart
+cannot be reused for testing and the test will be stopped when out of samples. The sample will be torn if the applied
+force exceeds the certain point and it will save the point and below.
 
+Suppose the range of force that is applied for testing id 1-1000 (integer). Your job is to find the least number
+of trials which would guarantee that the company finds the right certain point when the sample starts to be torn.
+
+Aj.Karin Sumongkayothin
+February 16, 2018
